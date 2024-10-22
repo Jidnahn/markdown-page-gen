@@ -171,5 +171,6 @@ class TestInlineMarkdown(unittest.TestCase):
         ]
         self.assertEqual(nodes, text_to_textnodes(text))
 
+
 if __name__ == "__main__":
     unittest.main()
